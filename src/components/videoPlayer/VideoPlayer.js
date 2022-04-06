@@ -10,7 +10,12 @@ const VideoPlayer = (props) => {
       <div className="leftContainer">
         <div className="vidPlayer">
           {props.currentVideo ? (
-            <iframe width="100%" height="500" src={videoSrc}></iframe>
+            <iframe
+              title="ytplayer"
+              width="100%"
+              height="500"
+              src={videoSrc}
+            ></iframe>
           ) : (
             <></>
           )}
